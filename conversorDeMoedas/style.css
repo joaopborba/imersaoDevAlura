@@ -1,40 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 40vw;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30vh 40vw;
 }
 
-.valorEmDolar{
-    margin: 15px 100%;
-
+.valorEmDolar {
+  margin: 15px 100%;
 }
 
-.cotacaoEmDolar{
-    margin: 0 100%;
+.cotacaoEmDolar {
+  margin: 0 100%;
 }
 
-.botaoCalcular{
-    margin: 20px 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+.botaoCalcular {
+  margin: 20px 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-#calculate-button{
-    padding: 2px 100%;
-
+#calculate-button {
+  padding: 2px 100%;
 }
 
-.result{
-    background-color: black;
-    color: white;
+.result {
+  background-color: black;
+  color: white;
 }
