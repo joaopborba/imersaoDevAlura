@@ -1,20 +1,29 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Kanit", sans-serif;
 }
 
 .container {
-  background-color: #9addeb;
-  box-shadow: 3px 3px gray;
+  background-color: #1d2540;
+  box-shadow: 3px 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid;
+  border: 1px solid black;
   border-radius: 25px;
   max-width: 600px;
   margin: 0 auto;
   margin-top: 100px;
+}
+
+h1 {
+  color: #8dbf21;
+}
+
+#label {
+  color: #d9d9d9;
 }
 
 .valorEmDolar {
@@ -37,9 +46,13 @@
 }
 
 .result {
-  margin: 10px;
-  padding: 20px 100px;
-  border-radius: 20px;
-  background-color: black;
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 70px;
+  border-radius: 0 0 20px 20px;
+  font-size: 20px;
+  background-color: #d9d9d9;
+  color: black;
 }
